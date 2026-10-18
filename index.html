@@ -21,7 +21,7 @@
                 <p >GDG On Campus presents</p>
             <h1 class="tg_text">GDG Build Day</h1>
             <p >One day. Hands-on workshops. Build and 
-          deploy your first web app with mentors 
+          deploy your full web app with mentors 
           beside you</p> 
             </div>           
           <div class="img_gdg">
@@ -30,8 +30,10 @@
         </div>
         <section class="two_button">
         <button class="register_free">Register for free</button>
-        <button class="schedule">see the schedule</button>
     </section>
+    <section class="Schedule_section">
+        <button class="schedule">see the schedule</button>
+    </section>   
     </section> 
     <section class="work">   
         <div class="card">
@@ -60,27 +62,94 @@
         </div>        
     </section>
     <section class="what_section">
-       <!-- <h1>What you will do on the day</h1> -->
-        <div class="contact">
-            <h2>Contact Me</h2>
-            <p>to reach us :- <a href="https">project@example.test</a> </p>
+        <h2 id="what_day">What you will do on the day</h2>
+        <div class="work">
+            <div class="card">
+            <div id="skyblue" class="card_content">
+                 <h2>Learn</h2>
+                 <p>Short workshops on HTML, CSS and 
+JavaScript from GDG members.</p>
+            </div>
         </div>
-        <div class="about">
-            <h2>About me</h2>
-            
-    <!-- <section class="what_section">
-        <h1>What you will do on the day</h1>
-        <div class="contact">
-            <h2>Contact Me</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe delectus mollitia soluta voluptas? Hic, impedit.</p>
-            <p>to reach us :- <a href="https">Dosomepracticeproject@example.test</a> </p>
-        </div>
-        <div class="about">
-            <h2>About me</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe delectus mollitia soluta voluptas? Hic, impedit.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe delectus mollitia soluta voluptas? Hic, impedit.</p>
-        </div>
-    </section>  -->
+        <div class="card">
+            <div id="reddish_brown" class="card_content">
+                 <h2>Build</h2>
+                 <p>Make a small project in a guided build sprint. Bring a laptop</p>
+            </div>
+        </div>  
+        <div class="card">
+            <div id="greenish" class="card_content">
+                 <h2>Connect</h2>
+                 <p>Meet mentors and student developers to build with later.</p>
+            </div>
+        </div> 
+        </div>             
+        </section> 
+    <section class="schedule">
+        <h4>SCHEDULE</h4>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="time">10:00 AM</td>
+                    <td class="activity">Check-in and welcome</td>
+                </tr>
+                <tr>
+                    <td class="time">10:30 AM</td>
+                    <td class="activity">  Workshop: build a responsive page</td>
+                </tr>
+                <tr>
+                    <td class="time">12:30 PM</td>
+                    <td class="activity">Lunch break</td>
+                </tr>
+                <tr>
+                    <td class="time">1:30 PM</td>
+                    <td class="activity">Build sprint with mentors</td>
+                </tr>
+                <tr>
+                    <td class="time">3:15 PM</td>
+                    <td class="activity">Demos and feedback</td>
+                </tr>
+                <tr>
+                    <td class="time">3:45 PM</td>
+                    <td class="activity">Closing and next steps</td>
+                </tr>
+            </tbody>
+        </table>
+    </section> 
+    <section class="save_seat" id="register">
+        <h1>Save your seat</h1>
+        <p>Fill in the form to register. This is a demo form, 
+so nothing is sent or stored.</p>
+        <form class="form_container">
+            <div class="form_control">
+                <label for="full_name">Name</label>
+                <input type="text" id="full_name" name="full_name"> <required></required>
+            </div>
+            <div class="form_control">
+                        <label for="personal_email">Personal Email</label>
+                         <input type="email" id="personal_email" name="personal_email">
+                    </div>
+            <div class="form_control">
+                        <label for="college_email">College Email</label>
+                         <input type="email" id="college_email" name="college_email" placeholder="ex: cse16247@gmail.com...">
+            </div>
+            <div class="form_control">
+                        <label for="phone">Phone Number</label>
+                         <input type="tel" id="phone" name="phone" inputmode="numeric" pattern="[0-9]{10}"
+                         maxlength="10"> 
+                    </div>
+                     <div class="form_control">
+                        <label for="select_year">Year of study</label>
+                        <select name="select_year" id="select_year">
+                            <option value>Select Your Year</option>
+                            <option value="1st">First Year</option>
+                            <option value="2rd">Second Year</option>
+                            <option value="3rd">Third Year</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit_btn">submit registration</button>
+                </form>
+    </section>
     <footer>PROJECT BY ADITYA PRAKASH</footer>
 </body>
 </html>
